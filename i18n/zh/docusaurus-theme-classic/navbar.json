@@ -34,5 +34,9 @@
   "item.label.community_openrank_leaderboard": {
     "message": "OpenRank 贡献度排行榜",
     "description": "Navbar item with label leaderboard"
+  },
+  "item.label.ant_openrank_leaderboard": {
+    "message": "蚂蚁 OpenRank 排行榜",
+    "description": "蚂蚁 OpenRank 排行榜"
   }
 }

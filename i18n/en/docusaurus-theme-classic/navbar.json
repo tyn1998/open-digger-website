@@ -34,5 +34,9 @@
   "item.label.community_openrank_leaderboard": {
     "message": "Community OpenRank Leaderboard",
     "description": "Navbar item with label leaderboard"
+  },
+  "item.label.ant_openrank_leaderboard": {
+    "message": "Ant OpenRank Leaderboard",
+    "description": "Ant OpenRank Leaderboard"
   }
 }

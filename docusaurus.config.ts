@@ -132,6 +132,11 @@ const config: Config = {
             position: 'left'
           },
           {
+            to: '/ant_openrank_leaderboard',
+            label: 'ant_openrank_leaderboard',
+            position: 'left'
+          },
+          {
             type: 'localeDropdown',
             position: 'right',
           },
