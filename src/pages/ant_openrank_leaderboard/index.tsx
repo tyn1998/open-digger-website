@@ -1,11 +1,13 @@
 import Layout from '@theme/Layout';
 
+import Board from './Board';
+
 export default (): JSX.Element => {
   return (
-    <div className='no-footer'>
+    <div className="no-footer">
       <Layout>
-      xx
+        <Board />
       </Layout>
     </div>
   );
-}
+};
