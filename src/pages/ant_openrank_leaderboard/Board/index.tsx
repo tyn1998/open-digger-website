@@ -1,30 +1,30 @@
-import React from 'react';
 import { Table } from 'antd';
+import React from 'react';
 
-const Board: React.FC = () => {
+import { ProjectData } from '../types';
+
+interface BoardProps {
+  projectData: ProjectData;
+}
+
+const Board: React.FC<BoardProps> = ({ projectData }) => {
   return (
     <Table
       columns={[
         {
           title: '排名',
-          dataIndex: 'rank',
+          dataIndex: 'r',
         },
         {
-          title: '公司',
-          dataIndex: 'company',
+          title: 'GitHub ID',
+          dataIndex: 'l',
         },
         {
-          title: 'OpenRank',
-          dataIndex: 'openrank',
+          title: '影响力',
+          dataIndex: 'o',
         },
       ]}
-      dataSource={[
-        {
-          rank: 1,
-          company: 'Alibaba',
-          openrank: 100,
-        },
-      ]}
+      dataSource={projectData.details}
     />
   );
 };
